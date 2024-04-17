@@ -1,0 +1,77 @@
+.header{
+    color: black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mainbody{
+    text-align: left;
+    align-items: left;
+    background-color: whitesmoke;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    margin-left: 40px;
+}
+
+li{
+    font-size: larger;
+}
+
+.common {
+    background-color: rgb(157, 209, 252);
+    align-items: left;
+    justify-content: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img{
+    display: block;
+    margin-right: 10px;
+    width: 25%;
+}
+
+iframe{
+    display: block;
+    margin-right: 10px;
+    width: 25%;
+}
+
+
+nav{
+    padding: 30px;
+    overflow: hidden;
+
+}
+
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    float: right;
+
+
+}
+
+nav a:hover{
+    color: whitesmoke;
+
+}
+
+.tableau {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the iframe horizontally */
+}
+
+iframe {
+    display: block;
+    width: 25%;
+    height: 200px;
+    border: none; /* Remove iframe border */
+}
